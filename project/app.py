@@ -135,7 +135,10 @@ class EnhancedStreamlitOCR:
                                 )
 
                             with tab2:
-                                st.json(extraction_result['parsed_data'], expanded=True)
+                                # Display the parsed data in a user-friendly format
+                                parsed_data = extraction_result['parsed_data']
+                                for field, value in parsed_data.items():
+                                    st.write(f"**{field}:** {value}")
 
         if st.session_state.processing_history:
             with st.expander("Processing History"):
