@@ -92,10 +92,7 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 3. Register a new account or log in with existing credentials.
 
-## 📸 Screenshots
-
-![Screenshot 1](https://i.ibb.co/CVkQ0H9/streamdemo.png)
-*OCR Application Interface*
+## 
 
 ![Screenshot 2](https://i.ibb.co/9qMJ5mJ/authdemo.png)
 *Authentication Page*
